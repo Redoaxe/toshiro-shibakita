@@ -1,8 +1,8 @@
-CREATE TABLE dados (
-    AlunoID int,
+CREATE TABLE mercado (
+    ClienteID int,
     Nome varchar(50),
     Sobrenome varchar(50),
-    Endereco varchar(150),
-    Cidade varchar(50),
+    NoProdutos varchar(150),
+    ValorDaCompra varchar(50),
     Host varchar(50)
 );
